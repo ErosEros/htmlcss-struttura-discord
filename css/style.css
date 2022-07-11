@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 body {
@@ -130,13 +130,36 @@ footer {
     background-color: #23272a;
     color: white;
     
+    
 }
 
-.footer-container {
+.footer-top {
     justify-content: space-around;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 h3, h2 {
     color:blue
+}
+
+.button-footer {
+    background-color: #8ea1e1;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    
+}
+
+hr {
+    color: #8ea1e1;
+}
+
+.footer-bottom {
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.footer-container {
+    margin: 0 250px;
+    padding: 20px;
 }

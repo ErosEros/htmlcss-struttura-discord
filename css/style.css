@@ -22,6 +22,10 @@ body {
     flex-direction: column;
 }
 
+.reverse-row {
+    flex-direction: row-reverse;
+}
+
 /* HEADER */
 header {
     background-color: blue;
@@ -63,11 +67,23 @@ a {
     margin: 0 300px;
     background-color: yellow;
     flex-basis: 200px;
-    
-    
 }
- /* BUTTON */
+  
 
+/* BUTTON SCARICA DA MAC */
+#button-1 {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* BUTTON APRI DISCORD NEL BROWSER */
+#button-2 {
+    background-color: #23272a;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
 
 
 
@@ -75,35 +91,52 @@ a {
 /* MAIN */
 main {
     background-color: red;
-    height: 1200px;
+    
+    
    
 }
 
 section > div {
-    height: calc(1200px / 4);
+    height: calc(100% / 4);
 }
 
 .section-main {
     align-items: center;
     margin: 0 250px;
     justify-content: space-around;
+    padding: 20px;
 }
 
 
 .image {
     height: 200px;
     width: 200px;
+    border: 2px dashed black;
    
 }
 
 .text-section {
-    width: 300px;
+    width: 200px;
+}
+
+/* section 4 */
+.text-section-4 {
+    width: 400px;
+    margin-top: 20px;
 }
 
 /* FOOTER */ 
 footer {
-    background-color: yellow;
-    height: 300px;
+    background-color: #23272a;
+    color: white;
     
-   
+}
+
+.footer-container {
+    justify-content: space-around;
+    line-height: 40px;
+}
+
+h3, h2 {
+    color:blue
 }

@@ -25,7 +25,7 @@ body {
 /* HEADER */
 header {
     background-color: blue;
-    height: 50vh;
+    height: 400px;
     color: white;
     
 } 
@@ -60,9 +60,10 @@ a {
     align-items: center;
     text-align: center;
     line-height: 30px;
-    margin: 0 250px;
+    margin: 0 300px;
     background-color: yellow;
     flex-basis: 200px;
+    
     
 }
  /* BUTTON */
@@ -74,14 +75,35 @@ a {
 /* MAIN */
 main {
     background-color: red;
-    height: 200vh;
+    height: 1200px;
    
 }
 
+section > div {
+    height: calc(1200px / 4);
+}
+
+.section-main {
+    align-items: center;
+    margin: 0 250px;
+    justify-content: space-around;
+}
+
+
+.image {
+    height: 200px;
+    width: 200px;
+   
+}
+
+.text-section {
+    width: 300px;
+}
 
 /* FOOTER */ 
 footer {
     background-color: yellow;
-    height: 30vh;
+    height: 300px;
+    
    
 }
